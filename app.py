@@ -9,9 +9,9 @@ from flask import send_from_directory
 app=Flask(__name__)
 mysql=MySQL()
 app.config['MYSQL_DATABASE_HOST']='us-cdbr-east-05.cleardb.net'
-app.config['MYSQL_DATABASE_USER']='b4250814fdb588'
-app.config['MYSQL_DATABASE_PASSWORD']='91a7a005'
-app.config['MYSQL_DATABASE_DB']='heroku_41f408f1d1c7cee'
+app.config['MYSQL_DATABASE_USER']='bbb5aefdfc0734'
+app.config['MYSQL_DATABASE_PASSWORD']='12784f39'
+app.config['MYSQL_DATABASE_DB']='heroku_4e34d5e7db07c50'
 mysql.init_app(app)
 
 #conexion a las carpetas
