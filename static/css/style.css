@@ -1,0 +1,186 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+/*estilos al principal*/
+body{
+  background: url('fondo.png') repeat;
+  background-size: cover;
+  font-family: 'Century Gothing', sans-serif;
+}
+
+.box{
+  width: 500px;
+  background: rgba(0, 0, 0, .4);
+  margin:0 auto;
+  margin-top: 4%;
+  padding: 20px;
+  color: white;
+  text-align: center;
+  border-radius: 15px;
+}
+.box-img{
+  border-radius: 50%;
+}
+
+.box h1{
+  font-size: 40px;
+  letter-spacing: 4px;
+  font-weight: 100;
+  margin: 30px 0 20px;
+  border-radius: 15px;
+}
+.box h2{
+  font-size:20px ;
+  letter-spacing: 3px;
+  font-weight: 100;
+  margin-bottom: 20px;
+}
+.box p{
+  text-align: justify;
+
+}
+/*estilos al registro*/
+.registro{
+  
+  width: 500px;
+  background: rgba(0, 0, 0, .4);
+  margin:0 auto;
+  margin-top: 4%;
+  padding: 20px;
+  color: white;
+  text-align: center;
+  border-radius: 15px;
+  
+}
+.registro-registro input[id="nombre"],
+.registro-registro input[id="apellido"],
+.registro-registro input[id="correo"],
+.registro-registro input[id="foto"],
+.registro-registro input[id="password"],
+.registro-registro button[type="submit"]{
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  padding: 14px 10px;
+  text-align: center;
+  border: 2px solid #3742fa;
+  width: 250px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+
+}
+.registro-registro input[id="nombre"]:focus,
+.registro-registro input[id="apellido"]:focus,
+.registro-registro input[id="correo"]:focus,
+.registro-registro input[id="foto"]:focus,
+.registro-registro input[id="password"]:focus,
+.registro-registro input[type="submit"]:focus{
+  width: 350px;
+  border-color: white;
+}
+.registro-registro button[type="submit"]{
+  border: 0;
+  background: #5352ed;
+  cursor: pointer;
+  border: 2px solid #3742fa;
+}
+.registro-registro button[type="submit"]:hover{
+  background: none;
+}
+
+
+/* stilos al login*/
+.login{
+  width: 500px;
+  background: rgba(0, 0, 0, .4);
+  margin:0 auto;
+  margin-top: 4%;
+  padding: 20px;
+  color: white;
+  text-align: center;
+  border-radius: 15px;
+}
+.login-login input[type="correo"],
+.login-login input[type="password"],
+.login-login button[type="submit"]{
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  padding: 14px 10px;
+  text-align: center;
+  border: 2px solid #3742fa;
+  width: 250px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+ 
+}
+.login-login input[type="correo"]:focus,
+.login-login input[type="password"]:focus{
+  width: 350px;
+  border-color: white;
+}
+.login-login button[type="submit"]{
+  border: 0;
+  background: #5352ed;
+  cursor: pointer;
+  border: 2px solid #3742fa;
+}
+.login-login button[type="submit"]:hover{
+  background: none;
+}
+.foto-inicio{
+  border-radius:50% ;
+  box-shadow: #3742fa;
+}
+
+.inicio-log{
+  background: none;
+  border: none;
+  cursor: pointer;
+  border: 2px solid #3742fa;
+  width: 60px;
+}
+
+/*estilos a redes sociales*/
+.social-networks a {
+  display: inline-flex;
+  color: #ffffff;
+  height: 48px;
+  width: 48px;
+  background-color: #000000;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  border-radius: 50%;
+  margin: 0 6px;
+  transition: transform 0.4s;
+}
+
+.social-networks a:hover {
+  transform: scale(1.3);
+}
+
+.social-networks a.facebook {
+  background-color: #3c70a4;
+}
+
+.social-networks a.twitter {
+  background-color: #5bd1d7;
+}
+
+.social-networks a.linkedin {
+  background-color: #ee4540;
+}
+
+.social-networks a.youtube {
+  background-color: #c72c41;
+}
+
+.social-networks a.instagram {
+  background-color: #bb7171;
+}

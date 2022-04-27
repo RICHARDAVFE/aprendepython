@@ -1,0 +1,26 @@
+{% include 'header.html' %}
+<div class="inicio">
+    <h1> {{session['nombre']}} <img class="foto-inicio" src="fotos/{{session['foto']}}" width="100"  ></h1>
+    <button class="inicio-log"><a href="{{url_for('salir')}}"> Salir</a></button>
+    <br>
+    <br>
+</div>
+<table class="table table-light">
+    <thead class="thead-light">
+        <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Accion</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for codigo in codigos %}
+        <tr>
+            <th>{{codigo[0]}}</th>
+            <th>{{codigo[1]}}</th>
+            <th> <a class="btn btn-warning" href="#" >ACTUALIZAR</a> <a class="btn btn-danger" href="#" > ELIMINAR</a></th>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% include 'footer.html' %}

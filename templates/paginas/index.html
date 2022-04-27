@@ -1,0 +1,17 @@
+ 
+{% include 'header.html' %}
+    <section class="box animated backInUp">
+        <img class="box-img" src="{{url_for('static',filename='mifoto/yo.jpg')}}" width="180" alt="richard aviles ferro">
+        <h1> RICHARD AVILES FERRO</h1>
+        <h2>DESARROLLADOR BACK-END</h2>
+        <p>Soy un estudiante de la carrera de <a href="https://www.unmsm.edu.pe/formacion-academica/carreras-de-pregrado/carrera-detalle/computacion-cientifica" target="_blank">Computacion Cientifica</a> en la <a href="https://www.unmsm.edu.pe/" target="_blank">UNMSM</a>, actualmente estoy en el VI ciclo. <br>Quiero realizar algoritmos relacionados con Inteligencia Artificial IA  ya que es uno de las
+        tegnologias que mas me llama la atencion. En mis redes subo contenido sobre temas que voy aprendiendo, uno de mis lenguajes favoritos de programacion es Python, es muy sencillo de entender y tiene muchas librerias que facilitan el manejo de datos y etc. <br> <br> Para recibir todo el contenido que subo en mis redes <a href="{{url_for('registro')}}"> Registrate</a></p>
+        <div class="social-networks">
+            <a href="https://www.facebook.com/Aprende.Py/?ref=pages_you_manage" target="_blank" class="facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://twitter.com/Aprende_Python" target="_blank" class="twitter"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/richard-aviles-ferro-426373175/" target="_blank" class="linkedin"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.youtube.com/channel/UCdHaS2BzwiOQHleXokffrsA" target="_blank" class="youtube"><i class="fab fa-youtube"></i></a>
+            <a href="https://www.instagram.com/aprende.py/?hl=es-la" target="_blank" class="instagram"><i class="fab fa-instagram"></i></a>
+        </div>
+    </section>
+{% include 'footer.html' %}

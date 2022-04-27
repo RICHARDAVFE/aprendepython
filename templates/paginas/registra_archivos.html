@@ -1,0 +1,12 @@
+{% include 'header.html' %}
+<form method="post" action="/add" enctype="multipart/form-data">
+    Nombre:
+    <input type="text" name="nombre" id="nombre">
+    <br>
+    Archivo:
+    <input type="file" name="archivo" id="archivo">
+    <br>
+    <br>
+    <button type="submit"> Agregar</button>
+</form>
+{% include 'footer.html' %}

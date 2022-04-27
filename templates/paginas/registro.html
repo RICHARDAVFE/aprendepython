@@ -1,0 +1,28 @@
+{% include 'header.html' %}
+
+<section class="registro ">
+  
+    <form class="registro-registro" method="post" action="/store" enctype="multipart/form-data">
+        <h1>SING UP</h1>
+        Nombre
+        <input type="text" name="nombre" id="nombre" placeholder="nombre" required>
+        <br>
+        Apellido
+        <input type="text" name="apellido" id="apellido" placeholder="apellido" required>
+        <br>
+        Correo
+        <input type="email" name="correo" id="correo" placeholder="correo" required>
+        <br>
+        Foto
+        <input type="file" name="foto" id="foto" required>
+        <br>
+        Contraseña
+        <input type="password" name="password" id="password" placeholder="contraseña" required>
+        <br>
+        <button type="submit"> REGISTRAR</button>
+        <p>¿Ya tienes cuenta?<a href="{{url_for('login')}}"> Iniciar Sesión</a></p>
+
+    </form>
+</section>
+</div>
+{% include 'footer.html' %}

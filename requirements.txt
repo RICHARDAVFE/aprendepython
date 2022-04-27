@@ -1,0 +1,7 @@
+gunicorn
+flask 
+Flask-MySQL
+datetime 
+bcrypt
+
+
